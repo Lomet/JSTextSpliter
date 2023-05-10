@@ -2,6 +2,9 @@
 
 This is a simple JavaScript application that allows you to split text files into chunks of a specific size. You can specify a prefix and a suffix that will be added to each chunk.
 
+Please note that this tool currently supports only `.txt` files. Other formats like `.docx` will not work. If you have a `.docx` file, please copy the text and paste it into a new `.txt` file before using this tool.
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
