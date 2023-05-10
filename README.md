@@ -15,7 +15,7 @@ You don't need to install any specific software. This application runs directly 
 1. Clone the repository to your local machine using Git:
 
     ```
-    git clone https://github.com/Lomet/JSTEXTSPLITER.git
+    git clone https://github.com/Lomet/JSTextSpliter.git
     ```
 
 2. Navigate to the project directory:
