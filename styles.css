@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#chunkArea {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+#prefix, #suffix, #chunkSize {
+    width: 100%;
+    margin: 5px 0;
+}

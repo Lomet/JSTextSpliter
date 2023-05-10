@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>File Splitter</h1>
+    <input type="file" id="file" name="file" onchange="handleFileSelect(event)">
+    <label for="chunkSize">Chunk Size:</label>
+    <input type="number" id="chunkSize" name="chunkSize" value="2000">
+    <label for="prefix">Prefix:</label>
+    <textarea id="prefix">Consider the following information for future reference:\n</textarea>
+    <label for="suffix">Suffix:</label>
+    <textarea id="suffix">\nAcknowledge if you understood the information.</textarea>
+    <button onclick="getNextChunk()">Get Next Chunk</button>
+    <textarea id="chunkArea"></textarea>
+</body>
+</html>
