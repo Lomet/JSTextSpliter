@@ -21,7 +21,7 @@ You don't need to install any specific software. This application runs directly 
 2. Navigate to the project directory:
 
     ```
-    cd yourrepository
+    cd JSTextSpliter
     ```
 
 3. Open `index.html` in your favorite web browser.
